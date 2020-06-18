@@ -1,0 +1,4 @@
+ROOT	machine_learning data_mining natural_language_processing
+natural_language_processing	named_entity_recognition information_extraction machine_translation
+machine_learning	support_vector_machines decision_trees neural_networks
+data_mining	association_rule_mining text_mining web_mining
