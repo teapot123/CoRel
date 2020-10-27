@@ -9,9 +9,16 @@ The source code used for our KDD'2020 paper.
 ## Datasets 
 
 Due to the constraint of size, we provide the link of our datasets in the following links, please copy the files to ``${dataset}/``. 
-* [DBLP & Yelp](https://drive.google.com/drive/folders/1t9IrrLm1fB92IC2nwGk-mIJCNubzx2fT?usp=sharing)
+* [DBLP & Yelp](https://drive.google.com/drive/folders/1t9IrrLm1fB92IC2nwGk-mIJCNubzx2fT?usp=sharing).
 
 ## Run the Code
+
+### Preprocessing
+If you are using our own datasets, you can skip this step. Otherwise, please first use this [preprocessing tool](https://github.com/mickeystroller/HiExpan/tree/master/src/corpusProcessing) to extract a ``sentences.json`` for your own corpus, and then run
+```
+bash preprocess.sh
+```
+to generate the index files.
 
 ### Concept Learning for topic nodes
 ```
